@@ -5,7 +5,7 @@ const Content = () => {
   const { deportes } = useDeportesContext();  
   const [filtroCategoria, setFiltroCategoria] = useState("Todos");
 
-  const deportesFiltrados = filtroCategoria === "Todos"
+  const deportesFiltrados =  filtroCategoria === "Todos"
     ? deportes
     : deportes.filter(deporte => deporte.categoria === filtroCategoria);
 
@@ -14,6 +14,7 @@ const Content = () => {
       <div className="mb-3" align="right">
         <label>Filtrar por Categoría:</label>
         <span>   </span>
+    
         <select
           id="filtroCategoria"
           className="form-select form-select-lg"
@@ -41,16 +42,13 @@ const Content = () => {
                 <p className="card-text">{deporte.descripcion}</p>
                 <p className="card-text"><strong>Categoría:</strong> {deporte.categoria}</p>
                 <p className="card-text"><strong>Equipo:</strong></p>
-                <ul>
-                  {deporte.equipos.map((equipo) => (
-                    <li key={equipo.nombre}>
-                      {equipo.nombre}:{" "}
-                      <a href={equipo.urlsitio} target="_blank" rel="noopener noreferrer">
-                        {equipo.urlsitio}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+                    <p >
+                      {deporte.equipo.nombre}
+                    <br />     
+                    <a href={deporte.equipo.urlsitio} target="_blank" rel="noopener noreferrer">
+                        {deporte.equipo.urlsitio}
+                    </a>
+                    </p>
               </div>
             </div>
           </div>

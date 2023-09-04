@@ -1,5 +1,3 @@
-
-
 export const dataCards = [
   {
     id: 1,
@@ -34,9 +32,8 @@ export const dataDeportes = [
     titulo: "Fútbol",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Equipos",
-    equipos: [
-      { nombre: "Junior", urlsitio: "https://www.realmadrid.com/" },
-    ]
+    equipo: { nombre: "Junior", urlsitio: "https://www.realmadrid.com/" }
+    
   },
   {
     id: 2,
@@ -44,9 +41,7 @@ export const dataDeportes = [
     titulo: "Baloncesto",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Equipos",
-    equipos: [
-      { nombre: "Washington Wizards", urlsitio: "https://www.nba.com/wizards" },
-    ]
+    equipo: { nombre: "Washington Wizards", urlsitio: "https://www.nba.com/wizards" }
   },
   {
     id: 3,
@@ -54,7 +49,7 @@ export const dataDeportes = [
     titulo: "Formula 1",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Carreras",
-    equipos: []
+    equipo: {}
   },
   {
     id: 4,
@@ -62,9 +57,8 @@ export const dataDeportes = [
     titulo: "Beisbol",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Equipos",
-    equipos: [
-      { nombre: "New York Yankees", urlsitio: "https://www.mlb.com/es/yankees" },
-    ]
+    equipo: { nombre: "New York Yankees", urlsitio: "https://www.mlb.com/es/yankees" },
+    
   },
   {
     id: 5,
@@ -72,7 +66,7 @@ export const dataDeportes = [
     titulo: "Dominó",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Mesa",
-    equipos: []
+    equipo: {}
   },
   {
     id: 6,
@@ -80,7 +74,31 @@ export const dataDeportes = [
     titulo: "Poker",
     descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
     categoria: "Mesa",
-    equipos: []
+    equipo: {}
+  },
+  {
+    id: 7,
+    imagen: "https://img2.rtve.es/i/?w=1600&i=1689677236017.jpg",
+    titulo: "Ajedrez",
+    descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    categoria: "Mesa",
+    equipo: {}
+  },
+  {
+    id: 8,
+    imagen: "https://www.moto1pro.com/sites/default/files/173205_ktm_350_450_sx-f_my_2018.jpg",
+    titulo: "Motocross",
+    descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    categoria: "Carreras",
+    equipo: {}
+  },
+  {
+    id: 9,
+    imagen: "https://www.semana.com/resizer/u0cO9zVKK1gAGxIiBUOhDkfmmj8=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/IUS6JZ64URFP7M5B2PHNQJGAHE.JPG",
+    titulo: "Bicicross",
+    descripcion: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    categoria: "Carreras",
+    equipo: {}
   },
 
 ];
